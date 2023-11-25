@@ -4,7 +4,6 @@
 #include "Monster.h"
 #include "List.h"
 
-
 int monsters_add(List *monsters);
 int monsters_find(List *monsters);
 int monsters_del(List *monsters);
