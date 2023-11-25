@@ -18,7 +18,7 @@ int main()
     while (1)
     {
         // 输入n的值，并判度是否数去正确
-        printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:退出;6:抽卡\n请输入：");
+        printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:抽卡;6:退出\n请输入：");
         while (((scanf("%d", &status)) != 1) || status < 1 || status > 9)
         {
             while (getchar() != '\n');
@@ -53,13 +53,14 @@ int main()
         }
         else if (status == 5)
         {
-            printf("退出程序\n");
-            sleep(1);
-            break;
+            monsters_draw(monsters);
         }
         else if (status == 6)
         {
-            monsters_draw(monsters);
+            printf("退出程序\n");
+            sleep(1);
+            break;
+
         }
     }
     list_free(monsters);
