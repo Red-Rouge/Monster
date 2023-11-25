@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/mnt/d/Desktop/C/draw2/bin/draw"
+			"path" : "/root/git/draw2/bin/draw"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/mnt/d/Desktop/C/draw2/inc"
+					"path" : "/root/git/draw2/inc"
 				}
 			],
 			"language" : "C",

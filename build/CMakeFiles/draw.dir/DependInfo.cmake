@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/Desktop/C/draw2/src/List.c" "CMakeFiles/draw.dir/src/List.c.o" "gcc" "CMakeFiles/draw.dir/src/List.c.o.d"
-  "/mnt/d/Desktop/C/draw2/src/Monster.c" "CMakeFiles/draw.dir/src/Monster.c.o" "gcc" "CMakeFiles/draw.dir/src/Monster.c.o.d"
-  "/mnt/d/Desktop/C/draw2/src/main.c" "CMakeFiles/draw.dir/src/main.c.o" "gcc" "CMakeFiles/draw.dir/src/main.c.o.d"
+  "/root/git/draw2/src/List.c" "CMakeFiles/draw.dir/src/List.c.o" "gcc" "CMakeFiles/draw.dir/src/List.c.o.d"
+  "/root/git/draw2/src/Monster.c" "CMakeFiles/draw.dir/src/Monster.c.o" "gcc" "CMakeFiles/draw.dir/src/Monster.c.o.d"
+  "/root/git/draw2/src/main.c" "CMakeFiles/draw.dir/src/main.c.o" "gcc" "CMakeFiles/draw.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,5 @@
-CMakeFiles/draw.dir/src/List.c.o: /mnt/d/Desktop/C/draw2/src/List.c \
- /usr/include/stdc-predef.h /mnt/d/Desktop/C/draw2/inc/List.h \
+CMakeFiles/draw.dir/src/List.c.o: /root/git/draw2/src/List.c \
+ /usr/include/stdc-predef.h /root/git/draw2/inc/List.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,4 +29,4 @@ CMakeFiles/draw.dir/src/List.c.o: /mnt/d/Desktop/C/draw2/src/List.c \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /mnt/d/Desktop/C/draw2/inc/Monster.h
+ /root/git/draw2/inc/Monster.h

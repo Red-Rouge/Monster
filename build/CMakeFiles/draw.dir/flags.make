@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/d/Desktop/C/draw2/inc
+C_INCLUDES = -I/root/git/draw2/inc
 
 C_FLAGS =  -Wall -pthread  -fdiagnostics-color  -std=c11 -g
 

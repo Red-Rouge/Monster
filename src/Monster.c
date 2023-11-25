@@ -19,15 +19,65 @@ int monster_scanf(Monster *monster)
     printf("\033[A\033[K");
     printf("------%s----------\n", monster->name);
     printf("输入%s的攻击力：", monster->name);
-    scanf("%d", &monster->ATK);
+    while ((scanf("%d", &monster->ATK)) != 1)
+    {
+        while (getchar() != '\n');
+        printf("输入错误，请重新输入\n");
+        usleep(500 * 1000);
+        for (int j = 0;j < 2;j++)
+        {
+            printf("\033[A\033[K");
+        }
+        printf("输入%s的攻击力：", monster->name);
+    }
     printf("输入%s的防御力：", monster->name);
-    scanf("%d", &monster->DEF);
+    while ((scanf("%d", &monster->DEF)) != 1)
+    {
+        while (getchar() != '\n');
+        printf("输入错误，请重新输入\n");
+        usleep(500 * 1000);
+        for (int j = 0;j < 2;j++)
+        {
+            printf("\033[A\033[K");
+        }
+        printf("输入%s的防御力：", monster->name);
+    }
     printf("输入%s的生命值：", monster->name);
-    scanf("%d", &monster->HP);
+    while ((scanf("%d", &monster->HP)) != 1)
+    {
+        while (getchar() != '\n');
+        printf("输入错误，请重新输入\n");
+        usleep(500 * 1000);
+        for (int j = 0;j < 2;j++)
+        {
+            printf("\033[A\033[K");
+        }
+        printf("输入%s的生命值：", monster->name);
+    }
     printf("输入%s的魔力值：", monster->name);
-    scanf("%d", &monster->MP);
+    while ((scanf("%d", &monster->MP)) != 1)
+    {
+        while (getchar() != '\n');
+        printf("输入错误，请重新输入\n");
+        usleep(500 * 1000);
+        for (int j = 0;j < 2;j++)
+        {
+            printf("\033[A\033[K");
+        }
+        printf("输入%s的魔力值：", monster->name);
+    }
     printf("输入%s的等级：", monster->name);
-    scanf("%d", &monster->LV);
+    while ((scanf("%d", &monster->LV)) != 1)
+    {
+        while (getchar() != '\n');
+        printf("输入错误，请重新输入\n");
+        usleep(500 * 1000);
+        for (int j = 0;j < 2;j++)
+        {
+            printf("\033[A\033[K");
+        }
+        printf("输入%s的等级：", monster->name);
+    }
     for (int i = 0;i < 6;i++)
         printf("\033[A\033[K");
     return 0;

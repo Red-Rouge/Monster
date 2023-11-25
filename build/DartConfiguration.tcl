@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /mnt/d/Desktop/C/draw2
-BuildDirectory: /mnt/d/Desktop/C/draw2/build
+SourceDirectory: /root/git/draw2
+BuildDirectory: /root/git/draw2/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/mnt/d/Desktop/C/draw2"
+ConfigureCommand: "/usr/bin/cmake" "/root/git/draw2"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

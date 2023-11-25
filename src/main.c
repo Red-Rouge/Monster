@@ -26,12 +26,12 @@ int main()
         {
             while (getchar() != '\n');
             printf("输入错误，请重新输入\n");
-            sleep(1);
+            usleep(500 * 1000);
             for (int j = 0;j < 3;j++)
             {
                 printf("\033[A\033[K");
             }
-            printf("请选择你要执行的操作：\n请输入：");
+            printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:抽卡;6:退出\n请输入：");
         }
         for (int j = 0;j < 2;j++)
         {
@@ -61,7 +61,7 @@ int main()
         else if (status == 6)
         {
             printf("退出程序\n");
-            sleep(1);
+            usleep(500 * 1000);
             break;
 
         }
@@ -74,7 +74,7 @@ int main()
 int monsters_add(List *monsters)
 {
     printf("添加怪物\n");
-    sleep(1);
+    usleep(500 * 1000);
     printf("\033[A\033[K");
     return list_add(monsters, monster_new_scanf());
 }
@@ -84,7 +84,7 @@ int monsters_find(List *monsters)
     // 查找怪兽，并输出
     char *name = (char *)calloc(20, sizeof(char));
     printf("查找怪物\n");
-    sleep(1);
+    usleep(500 * 1000);
     printf("\033[A\033[K");
     printf("请输入要查找的怪物的名字：");
     scanf("%s", name);
@@ -100,7 +100,7 @@ int monsters_find(List *monsters)
     }
     else
     {
-        sleep(1);
+        usleep(500 * 1000);
         printf("\033[A\033[K");
     }
     free(name);
@@ -111,13 +111,13 @@ int monsters_del(List *monsters)
 {
     char *name = (char *)calloc(20, sizeof(char));
     printf("删除怪物\n");
-    sleep(1);
+    usleep(500 * 1000);
     printf("\033[A\033[K");
     printf("请输入要删除的怪物的名字：");
     scanf("%s", name);
     printf("\033[A\033[K");
     list_del(monsters, name);
-    sleep(1);
+    usleep(500 * 1000);
     printf("\033[A\033[K");
     free(name);
     return 0;
@@ -127,7 +127,7 @@ int monsters_set(List *monsters)
 {
     char *name = (char *)calloc(20, sizeof(char));
     printf("修改怪物\n");
-    sleep(1);
+    usleep(500 * 1000);
     printf("\033[A\033[K");
     printf("请输入要修改的怪物的名字：");
     scanf("%s", name);
@@ -142,7 +142,7 @@ int monsters_set(List *monsters)
             {
                 while (getchar() != '\n');
                 printf("输入错误，退出\n");
-                sleep(1);
+                usleep(500 * 1000);
                 for (int j = 0;j < 2;j++)
                 {
                     printf("\033[A\033[K");
@@ -167,7 +167,17 @@ int monsters_set(List *monsters)
             {
                 int new_atk = 0;
                 printf("请输入新的攻击力：");
-                scanf("%d", &new_atk);
+                while ((scanf("%d", &new_atk)) != 1)
+                {
+                    while (getchar() != '\n');
+                    printf("输入错误，请重新输入\n");
+                    usleep(500 * 1000);
+                    for (int j = 0;j < 2;j++)
+                    {
+                        printf("\033[A\033[K");
+                    }
+                    printf("请输入新的攻击力：");
+                }
                 printf("\033[A\033[K");
                 monster_set_ATK(list_find(monsters, name), new_atk);
             }
@@ -175,7 +185,17 @@ int monsters_set(List *monsters)
             {
                 int new_def = 0;
                 printf("请输入新的防御力：");
-                scanf("%d", &new_def);
+                while ((scanf("%d", &new_def)) != 1)
+                {
+                    while (getchar() != '\n');
+                    printf("输入错误，请重新输入\n");
+                    usleep(500 * 1000);
+                    for (int j = 0;j < 2;j++)
+                    {
+                        printf("\033[A\033[K");
+                    }
+                    printf("请输入新的防御力：");
+                }
                 printf("\033[A\033[K");
                 monster_set_DEF(list_find(monsters, name), new_def);
             }
@@ -183,7 +203,17 @@ int monsters_set(List *monsters)
             {
                 int new_hp = 0;
                 printf("请输入新的血量：");
-                scanf("%d", &new_hp);
+                while ((scanf("%d", &new_hp)) != 1)
+                {
+                    while (getchar() != '\n');
+                    printf("输入错误，请重新输入\n");
+                    usleep(500 * 1000);
+                    for (int j = 0;j < 2;j++)
+                    {
+                        printf("\033[A\033[K");
+                    }
+                    printf("请输入新的血量：");
+                }
                 printf("\033[A\033[K");
                 monster_set_HP(list_find(monsters, name), new_hp);
             }
@@ -191,7 +221,17 @@ int monsters_set(List *monsters)
             {
                 int new_mp = 0;
                 printf("请输入新的魔力值：");
-                scanf("%d", &new_mp);
+                while ((scanf("%d", &new_mp)) != 1)
+                {
+                    while (getchar() != '\n');
+                    printf("输入错误，请重新输入\n");
+                    usleep(500 * 1000);
+                    for (int j = 0;j < 2;j++)
+                    {
+                        printf("\033[A\033[K");
+                    }
+                    printf("请输入新的魔力值：");
+                }
                 printf("\033[A\033[K");
                 monster_set_MP(list_find(monsters, name), new_mp);
             }
@@ -199,14 +239,24 @@ int monsters_set(List *monsters)
             {
                 int new_lv = 0;
                 printf("请输入新的等级：");
-                scanf("%d", &new_lv);
+                while ((scanf("%d", &new_lv)) != 1)
+                {
+                    while (getchar() != '\n');
+                    printf("输入错误，请重新输入\n");
+                    usleep(500 * 1000);
+                    for (int j = 0;j < 2;j++)
+                    {
+                        printf("\033[A\033[K");
+                    }
+                    printf("请输入新的等级：");
+                }
                 printf("\033[A\033[K");
                 monster_set_LV(list_find(monsters, name), new_lv);
             }
             else if (type == 6)
             {
                 printf("正在退出修改\n");
-                sleep(1);
+                usleep(500 * 1000);
                 printf("\033[A\033[K");
                 break;
             }
@@ -215,7 +265,7 @@ int monsters_set(List *monsters)
     }
     else
     {
-        sleep(1);
+        usleep(500 * 1000);
         printf("\033[A\033[K");
     }
     free(name);
@@ -226,7 +276,7 @@ int monsters_set(List *monsters)
 int monsters_draw(List *monsters)
 {
     printf("开始抽卡...\n");
-    sleep(1);
+    usleep(500 * 1000);
     printf("\033[A\033[K");
     srand((unsigned)time(NULL));
     for (int i = 0;i < 10 && monsters->size != 0;i++)
