@@ -1,0 +1,1 @@
+g++  -std=c++11 -Wall -fdiagnostics-color  -pthread -g -rdynamic CMakeFiles/draw.dir/src/Monster.cpp.o CMakeFiles/draw.dir/src/main.cpp.o CMakeFiles/draw.dir/src/test.cpp.o -o ../bin/draw 

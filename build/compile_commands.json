@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/root/study/draw/build",
+  "command": "g++  -I/root/study/draw/inc  -std=c++11 -Wall -fdiagnostics-color  -pthread -g -o CMakeFiles/draw.dir/src/Monster.cpp.o -c /root/study/draw/src/Monster.cpp",
+  "file": "/root/study/draw/src/Monster.cpp"
+},
+{
+  "directory": "/root/study/draw/build",
+  "command": "g++  -I/root/study/draw/inc  -std=c++11 -Wall -fdiagnostics-color  -pthread -g -o CMakeFiles/draw.dir/src/main.cpp.o -c /root/study/draw/src/main.cpp",
+  "file": "/root/study/draw/src/main.cpp"
+},
+{
+  "directory": "/root/study/draw/build",
+  "command": "g++  -I/root/study/draw/inc  -std=c++11 -Wall -fdiagnostics-color  -pthread -g -o CMakeFiles/draw.dir/src/test.cpp.o -c /root/study/draw/src/test.cpp",
+  "file": "/root/study/draw/src/test.cpp"
+}
+]
