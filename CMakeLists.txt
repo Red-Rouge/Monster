@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 project(Monster)
 
-include(CTest)
-enable_testing()
 
 include_directories(${PROJECT_SOURCE_DIR}/inc)
 file(GLOB SRC_LIST ${PROJECT_SOURCE_DIR}/src/*.c)
