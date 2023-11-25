@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/git/draw2
+CMAKE_SOURCE_DIR = /mnt/d/Documents/GitHub/draw2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/git/draw2/build
+CMAKE_BINARY_DIR = /mnt/d/Documents/GitHub/draw2/build
 
 # Utility rule file for ContinuousSubmit.
 
@@ -82,6 +82,6 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 CMakeFiles/ContinuousSubmit.dir/depend:
-	cd /root/git/draw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/git/draw2 /root/git/draw2 /root/git/draw2/build /root/git/draw2/build /root/git/draw2/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Documents/GitHub/draw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build/CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousSubmit.dir/depend
 

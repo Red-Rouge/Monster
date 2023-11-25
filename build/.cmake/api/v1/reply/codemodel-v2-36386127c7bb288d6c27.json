@@ -291,7 +291,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "draw::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-draw-Debug-878341595eb2d7506c75.json",
+					"jsonFile" : "target-draw-Debug-e26dbcfc5d6f20aadc97.json",
 					"name" : "draw",
 					"projectIndex" : 0
 				}
@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/root/git/draw2/build",
-		"source" : "/root/git/draw2"
+		"build" : "/mnt/d/Documents/GitHub/draw2/build",
+		"source" : "/mnt/d/Documents/GitHub/draw2"
 	},
 	"version" : 
 	{

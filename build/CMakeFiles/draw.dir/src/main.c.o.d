@@ -1,5 +1,6 @@
-CMakeFiles/draw.dir/src/main.c.o: /root/git/draw2/src/main.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/draw.dir/src/main.c.o: \
+ /mnt/d/Documents/GitHub/draw2/src/main.c /usr/include/stdc-predef.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -37,6 +38,7 @@ CMakeFiles/draw.dir/src/main.c.o: /root/git/draw2/src/main.c \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /root/git/draw2/inc/Monster.h /usr/include/stdlib.h \
+ /mnt/d/Documents/GitHub/draw2/inc/Monster.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
- /root/git/draw2/inc/List.h /root/git/draw2/inc/Monster.h
+ /mnt/d/Documents/GitHub/draw2/inc/List.h \
+ /mnt/d/Documents/GitHub/draw2/inc/Monster.h

@@ -733,8 +733,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/root/git/draw2/build",
-		"source" : "/root/git/draw2"
+		"build" : "/mnt/d/Documents/GitHub/draw2/build",
+		"source" : "/mnt/d/Documents/GitHub/draw2"
 	},
 	"version" : 
 	{

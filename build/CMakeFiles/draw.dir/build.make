@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/git/draw2
+CMAKE_SOURCE_DIR = /mnt/d/Documents/GitHub/draw2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/git/draw2/build
+CMAKE_BINARY_DIR = /mnt/d/Documents/GitHub/draw2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/draw.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/draw.dir/flags.make
 CMakeFiles/draw.dir/src/List.c.o: CMakeFiles/draw.dir/flags.make
 CMakeFiles/draw.dir/src/List.c.o: ../src/List.c
 CMakeFiles/draw.dir/src/List.c.o: CMakeFiles/draw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/git/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/draw.dir/src/List.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/draw.dir/src/List.c.o -MF CMakeFiles/draw.dir/src/List.c.o.d -o CMakeFiles/draw.dir/src/List.c.o -c /root/git/draw2/src/List.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Documents/GitHub/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/draw.dir/src/List.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/draw.dir/src/List.c.o -MF CMakeFiles/draw.dir/src/List.c.o.d -o CMakeFiles/draw.dir/src/List.c.o -c /mnt/d/Documents/GitHub/draw2/src/List.c
 
 CMakeFiles/draw.dir/src/List.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/draw.dir/src/List.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/git/draw2/src/List.c > CMakeFiles/draw.dir/src/List.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/draw2/src/List.c > CMakeFiles/draw.dir/src/List.c.i
 
 CMakeFiles/draw.dir/src/List.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/draw.dir/src/List.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/git/draw2/src/List.c -o CMakeFiles/draw.dir/src/List.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/draw2/src/List.c -o CMakeFiles/draw.dir/src/List.c.s
 
 CMakeFiles/draw.dir/src/Monster.c.o: CMakeFiles/draw.dir/flags.make
 CMakeFiles/draw.dir/src/Monster.c.o: ../src/Monster.c
 CMakeFiles/draw.dir/src/Monster.c.o: CMakeFiles/draw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/git/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/draw.dir/src/Monster.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/draw.dir/src/Monster.c.o -MF CMakeFiles/draw.dir/src/Monster.c.o.d -o CMakeFiles/draw.dir/src/Monster.c.o -c /root/git/draw2/src/Monster.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Documents/GitHub/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/draw.dir/src/Monster.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/draw.dir/src/Monster.c.o -MF CMakeFiles/draw.dir/src/Monster.c.o.d -o CMakeFiles/draw.dir/src/Monster.c.o -c /mnt/d/Documents/GitHub/draw2/src/Monster.c
 
 CMakeFiles/draw.dir/src/Monster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/draw.dir/src/Monster.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/git/draw2/src/Monster.c > CMakeFiles/draw.dir/src/Monster.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/draw2/src/Monster.c > CMakeFiles/draw.dir/src/Monster.c.i
 
 CMakeFiles/draw.dir/src/Monster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/draw.dir/src/Monster.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/git/draw2/src/Monster.c -o CMakeFiles/draw.dir/src/Monster.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/draw2/src/Monster.c -o CMakeFiles/draw.dir/src/Monster.c.s
 
 CMakeFiles/draw.dir/src/main.c.o: CMakeFiles/draw.dir/flags.make
 CMakeFiles/draw.dir/src/main.c.o: ../src/main.c
 CMakeFiles/draw.dir/src/main.c.o: CMakeFiles/draw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/git/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/draw.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/draw.dir/src/main.c.o -MF CMakeFiles/draw.dir/src/main.c.o.d -o CMakeFiles/draw.dir/src/main.c.o -c /root/git/draw2/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Documents/GitHub/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/draw.dir/src/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/draw.dir/src/main.c.o -MF CMakeFiles/draw.dir/src/main.c.o.d -o CMakeFiles/draw.dir/src/main.c.o -c /mnt/d/Documents/GitHub/draw2/src/main.c
 
 CMakeFiles/draw.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/draw.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/git/draw2/src/main.c > CMakeFiles/draw.dir/src/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/draw2/src/main.c > CMakeFiles/draw.dir/src/main.c.i
 
 CMakeFiles/draw.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/draw.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/git/draw2/src/main.c -o CMakeFiles/draw.dir/src/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/draw2/src/main.c -o CMakeFiles/draw.dir/src/main.c.s
 
 # Object files for target draw
 draw_OBJECTS = \
@@ -125,7 +125,7 @@ draw_EXTERNAL_OBJECTS =
 ../bin/draw: CMakeFiles/draw.dir/src/main.c.o
 ../bin/draw: CMakeFiles/draw.dir/build.make
 ../bin/draw: CMakeFiles/draw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/git/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/draw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Documents/GitHub/draw2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ../bin/draw"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/draw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/draw.dir/clean:
 .PHONY : CMakeFiles/draw.dir/clean
 
 CMakeFiles/draw.dir/depend:
-	cd /root/git/draw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/git/draw2 /root/git/draw2 /root/git/draw2/build /root/git/draw2/build /root/git/draw2/build/CMakeFiles/draw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Documents/GitHub/draw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build/CMakeFiles/draw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/draw.dir/depend
 

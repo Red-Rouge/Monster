@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/root/git/draw2/bin/draw"
+			"path" : "/mnt/d/Documents/GitHub/draw2/bin/draw"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/root/git/draw2/inc"
+					"path" : "/mnt/d/Documents/GitHub/draw2/inc"
 				}
 			],
 			"language" : "C",
