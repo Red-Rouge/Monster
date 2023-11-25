@@ -14,6 +14,10 @@ int monsters_draw(List *monsters);
 int main()
 {
     List *monsters = list_create(20);
+    list_add(monsters, monster_new_set("saber", 100, 100, 100, 100, 100));
+    list_add(monsters, monster_new_set("berserker", 100, 100, 100, 100, 100));
+    list_add(monsters, monster_new_set("archer", 100, 100, 100, 100, 100));
+    list_add(monsters, monster_new_set("lancer", 100, 100, 100, 100, 100));
     int status;
     while (1)
     {
