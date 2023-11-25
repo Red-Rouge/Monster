@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <unistd.h>  
 #include "Monster.h"
 #include "List.h"
 
@@ -8,6 +9,7 @@ int monsters_add(List *monsters);
 int monsters_find(List *monsters);
 int monsters_del(List *monsters);
 int monsters_set(List *monsters);
+int monsters_draw(List *monsters);
 
 int main()
 {
@@ -16,7 +18,7 @@ int main()
     while (1)
     {
         // 输入n的值，并判度是否数去正确
-        printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:退出\n请输入：");
+        printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:退出;6:抽卡\n请输入：");
         while (((scanf("%d", &status)) != 1) || status < 1 || status > 9)
         {
             while (getchar() != '\n');
@@ -54,6 +56,10 @@ int main()
             printf("退出程序\n");
             sleep(1);
             break;
+        }
+        else if (status == 6)
+        {
+            monsters_draw(monsters);
         }
     }
     list_free(monsters);
@@ -213,7 +219,24 @@ int monsters_set(List *monsters)
 
 }
 
-
+int monsters_draw(List *monsters)
+{
+    printf("开始抽卡...\n");
+    sleep(1);
+    printf("\033[A\033[K");
+    srand((unsigned)time(NULL));
+    for (int i = 0;i < 10 && monsters->size != 0;i++)
+    {
+        monster_print(monsters->monsters[rand() % monsters->size]);
+        usleep(500 * 1000);
+        // 每次光标回退一行，并且清除哪一行
+        for (int j = 0;j < 6;j++)
+        {
+            printf("\033[A\033[K");
+        }
+    }
+    return 0;
+}
 
 
 
