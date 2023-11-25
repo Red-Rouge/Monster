@@ -1,0 +1,17 @@
+{
+    "cmake.cmakePath": "cmake",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc-11",
+    // "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "typeinfo": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "utility": "c",
+        "stdlib.h": "c",
+        "time.h": "c",
+        "monster.h": "c"
+    },
+    "code-runner.customCommand": "echo Hello"
+}

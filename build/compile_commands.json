@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/mnt/d/Desktop/C/draw2/build",
+  "command": "/usr/bin/gcc  -I/mnt/d/Desktop/C/draw2/inc  -Wall -pthread  -fdiagnostics-color  -std=c11 -g -o CMakeFiles/draw.dir/src/List.c.o -c /mnt/d/Desktop/C/draw2/src/List.c",
+  "file": "/mnt/d/Desktop/C/draw2/src/List.c"
+},
+{
+  "directory": "/mnt/d/Desktop/C/draw2/build",
+  "command": "/usr/bin/gcc  -I/mnt/d/Desktop/C/draw2/inc  -Wall -pthread  -fdiagnostics-color  -std=c11 -g -o CMakeFiles/draw.dir/src/Monster.c.o -c /mnt/d/Desktop/C/draw2/src/Monster.c",
+  "file": "/mnt/d/Desktop/C/draw2/src/Monster.c"
+},
+{
+  "directory": "/mnt/d/Desktop/C/draw2/build",
+  "command": "/usr/bin/gcc  -I/mnt/d/Desktop/C/draw2/inc  -Wall -pthread  -fdiagnostics-color  -std=c11 -g -o CMakeFiles/draw.dir/src/main.c.o -c /mnt/d/Desktop/C/draw2/src/main.c",
+  "file": "/mnt/d/Desktop/C/draw2/src/main.c"
+}
+]

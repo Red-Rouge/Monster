@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -pthread  -fdiagnostics-color  -std=c11 -g -rdynamic CMakeFiles/draw.dir/src/List.c.o CMakeFiles/draw.dir/src/Monster.c.o CMakeFiles/draw.dir/src/main.c.o -o ../bin/draw 
