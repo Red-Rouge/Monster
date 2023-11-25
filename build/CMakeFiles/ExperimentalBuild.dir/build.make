@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Documents/GitHub/draw2
+CMAKE_SOURCE_DIR = /mnt/d/Documents/GitHub/Monster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Documents/GitHub/draw2/build
+CMAKE_BINARY_DIR = /mnt/d/Documents/GitHub/Monster/build
 
 # Utility rule file for ExperimentalBuild.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalBuild.dir/clean:
 .PHONY : CMakeFiles/ExperimentalBuild.dir/clean
 
 CMakeFiles/ExperimentalBuild.dir/depend:
-	cd /mnt/d/Documents/GitHub/draw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Documents/GitHub/Monster/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Documents/GitHub/Monster /mnt/d/Documents/GitHub/Monster /mnt/d/Documents/GitHub/Monster/build /mnt/d/Documents/GitHub/Monster/build /mnt/d/Documents/GitHub/Monster/build/CMakeFiles/ExperimentalBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalBuild.dir/depend
 

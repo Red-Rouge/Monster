@@ -1,6 +1,6 @@
-CMakeFiles/draw.dir/src/Monster.c.o: \
- /mnt/d/Documents/GitHub/draw2/src/Monster.c /usr/include/stdc-predef.h \
- /mnt/d/Documents/GitHub/draw2/inc/Monster.h /usr/include/stdio.h \
+CMakeFiles/Monster.dir/src/List.c.o: \
+ /mnt/d/Documents/GitHub/Monster/src/List.c /usr/include/stdc-predef.h \
+ /mnt/d/Documents/GitHub/Monster/inc/List.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -28,4 +28,5 @@ CMakeFiles/draw.dir/src/Monster.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /mnt/d/Documents/GitHub/Monster/inc/Monster.h

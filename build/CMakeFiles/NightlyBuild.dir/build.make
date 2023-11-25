@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Documents/GitHub/draw2
+CMAKE_SOURCE_DIR = /mnt/d/Documents/GitHub/Monster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Documents/GitHub/draw2/build
+CMAKE_BINARY_DIR = /mnt/d/Documents/GitHub/Monster/build
 
 # Utility rule file for NightlyBuild.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyBuild.dir/clean:
 .PHONY : CMakeFiles/NightlyBuild.dir/clean
 
 CMakeFiles/NightlyBuild.dir/depend:
-	cd /mnt/d/Documents/GitHub/draw2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2 /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build /mnt/d/Documents/GitHub/draw2/build/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Documents/GitHub/Monster/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Documents/GitHub/Monster /mnt/d/Documents/GitHub/Monster /mnt/d/Documents/GitHub/Monster/build /mnt/d/Documents/GitHub/Monster/build /mnt/d/Documents/GitHub/Monster/build/CMakeFiles/NightlyBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyBuild.dir/depend
 

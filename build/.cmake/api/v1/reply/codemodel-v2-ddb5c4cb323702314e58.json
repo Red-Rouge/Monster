@@ -55,7 +55,7 @@
 					[
 						0
 					],
-					"name" : "draw",
+					"name" : "Monster",
 					"targetIndexes" : 
 					[
 						0,
@@ -220,6 +220,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Monster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Monster-Debug-33b1b2d51bdcf682b01d.json",
+					"name" : "Monster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Nightly::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Nightly-Debug-f9e5b741b22949f8cead.json",
 					"name" : "Nightly",
@@ -287,13 +294,6 @@
 					"jsonFile" : "target-NightlyUpdate-Debug-63d766d752c6738946de.json",
 					"name" : "NightlyUpdate",
 					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "draw::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-draw-Debug-e26dbcfc5d6f20aadc97.json",
-					"name" : "draw",
-					"projectIndex" : 0
 				}
 			]
 		}
@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/d/Documents/GitHub/draw2/build",
-		"source" : "/mnt/d/Documents/GitHub/draw2"
+		"build" : "/mnt/d/Documents/GitHub/Monster/build",
+		"source" : "/mnt/d/Documents/GitHub/Monster"
 	},
 	"version" : 
 	{
