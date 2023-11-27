@@ -13,10 +13,5 @@
   "directory": "/mnt/d/Documents/GitHub/Monster/build",
   "command": "/usr/bin/gcc  -I/mnt/d/Documents/GitHub/Monster/inc  -Wall -pthread  -fdiagnostics-color  -std=c18 -g -o CMakeFiles/Monster.dir/src/main.c.o -c /mnt/d/Documents/GitHub/Monster/src/main.c",
   "file": "/mnt/d/Documents/GitHub/Monster/src/main.c"
-},
-{
-  "directory": "/mnt/d/Documents/GitHub/Monster/build",
-  "command": "/usr/bin/gcc  -I/mnt/d/Documents/GitHub/Monster/inc  -Wall -pthread  -fdiagnostics-color  -std=c18 -g -o CMakeFiles/Monster.dir/src/test.c.o -c /mnt/d/Documents/GitHub/Monster/src/test.c",
-  "file": "/mnt/d/Documents/GitHub/Monster/src/test.c"
 }
 ]
