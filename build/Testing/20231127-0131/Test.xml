@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-g++"
+	BuildStamp="20231127-0131-Experimental"
+	Name="DESKTOP-Q7R4QCM"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="DESKTOP-Q7R4QCM"
+	OSRelease="4.4.0-19041-Microsoft"
+	OSVersion="#3636-Microsoft Thu Oct 19 17:41:00 PST 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="256"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="18654"
+	TotalPhysicalMemory="16251"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2400"
+	>
+	<Testing>
+		<StartDateTime>Nov 27 16:13 CST</StartDateTime>
+		<StartTestTime>1701072813</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 27 16:13 CST</EndDateTime>
+		<EndTestTime>1701072813</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

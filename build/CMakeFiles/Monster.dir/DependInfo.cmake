@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/d/Documents/GitHub/Monster/src/List.c" "CMakeFiles/Monster.dir/src/List.c.o" "gcc" "CMakeFiles/Monster.dir/src/List.c.o.d"
   "/mnt/d/Documents/GitHub/Monster/src/Monster.c" "CMakeFiles/Monster.dir/src/Monster.c.o" "gcc" "CMakeFiles/Monster.dir/src/Monster.c.o.d"
   "/mnt/d/Documents/GitHub/Monster/src/main.c" "CMakeFiles/Monster.dir/src/main.c.o" "gcc" "CMakeFiles/Monster.dir/src/main.c.o.d"
+  "/mnt/d/Documents/GitHub/Monster/src/test.c" "CMakeFiles/Monster.dir/src/test.c.o" "gcc" "CMakeFiles/Monster.dir/src/test.c.o.d"
   )
 
 # Targets to which this target links.

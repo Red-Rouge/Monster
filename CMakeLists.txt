@@ -7,7 +7,7 @@ file(GLOB SRC_LIST ${PROJECT_SOURCE_DIR}/src/*.c)
 
 # 指定编译命令为g++，使用c++17，可以多线程
 set(CMAKE_CXX_COMPILER gcc)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -pthread  -fdiagnostics-color  -std=c11")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -pthread  -fdiagnostics-color  -std=c18")
 
 # 指定输出路径
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)

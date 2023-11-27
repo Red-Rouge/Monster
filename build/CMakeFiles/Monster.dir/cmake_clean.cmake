@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Monster.dir/src/Monster.c.o.d"
   "CMakeFiles/Monster.dir/src/main.c.o"
   "CMakeFiles/Monster.dir/src/main.c.o.d"
+  "CMakeFiles/Monster.dir/src/test.c.o"
+  "CMakeFiles/Monster.dir/src/test.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

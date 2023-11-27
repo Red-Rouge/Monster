@@ -11,7 +11,8 @@
         "utility": "c",
         "stdlib.h": "c",
         "time.h": "c",
-        "monster.h": "c"
+        "monster.h": "c",
+        "stdio.h": "c"
     },
     "code-runner.customCommand": "echo Hello"
 }

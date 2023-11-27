@@ -1,4 +1,4 @@
-#ifndef __MONSTER_H
+#ifndef __MONSTER_H 
 #define __MONSTER_H
 
 #include <stdio.h>
@@ -41,7 +41,7 @@ void monster_set_HP(Monster *monster, const int HP);
 void monster_set_MP(Monster *monster, const int MP);
 // monster设置ATK
 void monster_set_ATK(Monster *monster, const int ATK);
-// monster设置DEF
+// monster设置DEFz
 void monster_set_DEF(Monster *monster, const int DEF);
 // monster设置LV
 void monster_set_LV(Monster *monster, const int LV);

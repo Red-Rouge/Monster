@@ -14,14 +14,14 @@ int main()
 {
     List *monsters = list_create(20);
     list_add(monsters, monster_new_set("saber", 100, 100, 100, 100, 100));
-    list_add(monsters, monster_new_set("berserker", 100, 100, 100, 100, 100));
+    list_add(monsters, monster_new_set("caster", 100, 100, 100, 100, 100));
     list_add(monsters, monster_new_set("archer", 100, 100, 100, 100, 100));
     list_add(monsters, monster_new_set("lancer", 100, 100, 100, 100, 100));
     int status;
     while (1)
     {
         // 输入n的值，并判度是否数去正确
-        printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:抽卡;6:退出\n请输入：");
+        printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:抽卡;6:展示;7:退出\n请输入：");
         while (((scanf("%d", &status)) != 1) || status < 1 || status > 9)
         {
             while (getchar() != '\n');
@@ -31,7 +31,7 @@ int main()
             {
                 printf("\033[A\033[K");
             }
-            printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:抽卡;6:退出\n请输入：");
+            printf("请选择你要执行的操作：1:添加;2:查询;3:删除;4:修改;5:抽卡;6:展示;7:退出\n请输入：");
         }
         for (int j = 0;j < 2;j++)
         {
@@ -59,6 +59,24 @@ int main()
             monsters_draw(monsters);
         }
         else if (status == 6)
+        {
+            printf("name\tATK\tDEF\tHP\tMP\tLV\t\n");
+            for (int i = 0;i < monsters->size;i++)
+            {
+                printf("%s\t", monsters->monsters[i]->name);
+                printf("%d\t", monsters->monsters[i]->ATK);
+                printf("%d\t", monsters->monsters[i]->DEF);
+                printf("%d\t", monsters->monsters[i]->HP);
+                printf("%d\t", monsters->monsters[i]->MP);
+                printf("%d\t\n", monsters->monsters[i]->LV);
+            }
+            sleep(2);
+            for (int j = 0;j < 6;j++)
+            {
+                printf("\033[A\033[K");
+            }
+        }
+        else if (status == 7)
         {
             printf("退出程序\n");
             usleep(500 * 1000);
@@ -149,7 +167,7 @@ int monsters_set(List *monsters)
                 }
                 return 0;
             }
-            for (int j = 0;j < 3;j++)
+            for (int j = 0;j < 2;j++)
             {
                 printf("\033[A\033[K");
             }

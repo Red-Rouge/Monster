@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/mnt/d/Documents/GitHub/Monster/inc
 
-C_FLAGS =  -Wall -pthread  -fdiagnostics-color  -std=c11 -g
+C_FLAGS =  -Wall -pthread  -fdiagnostics-color  -std=c18 -g
 
