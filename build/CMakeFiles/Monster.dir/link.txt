@@ -1,1 +1,1 @@
-/usr/bin/gcc  -Wall -pthread  -fdiagnostics-color  -std=c18 -g -rdynamic CMakeFiles/Monster.dir/src/List.c.o CMakeFiles/Monster.dir/src/Monster.c.o CMakeFiles/Monster.dir/src/main.c.o -o ../bin/Monster 
+/usr/bin/cc  -Wall -pthread  -fdiagnostics-color  -std=c18 -rdynamic CMakeFiles/Monster.dir/src/List.c.o CMakeFiles/Monster.dir/src/Monster.c.o CMakeFiles/Monster.dir/src/main.c.o -o ../bin/Monster 

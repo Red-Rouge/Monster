@@ -73,43 +73,43 @@ CMakeFiles/Monster.dir/src/List.c.o: CMakeFiles/Monster.dir/flags.make
 CMakeFiles/Monster.dir/src/List.c.o: ../src/List.c
 CMakeFiles/Monster.dir/src/List.c.o: CMakeFiles/Monster.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Documents/GitHub/Monster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Monster.dir/src/List.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Monster.dir/src/List.c.o -MF CMakeFiles/Monster.dir/src/List.c.o.d -o CMakeFiles/Monster.dir/src/List.c.o -c /mnt/d/Documents/GitHub/Monster/src/List.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Monster.dir/src/List.c.o -MF CMakeFiles/Monster.dir/src/List.c.o.d -o CMakeFiles/Monster.dir/src/List.c.o -c /mnt/d/Documents/GitHub/Monster/src/List.c
 
 CMakeFiles/Monster.dir/src/List.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Monster.dir/src/List.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/Monster/src/List.c > CMakeFiles/Monster.dir/src/List.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/Monster/src/List.c > CMakeFiles/Monster.dir/src/List.c.i
 
 CMakeFiles/Monster.dir/src/List.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Monster.dir/src/List.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/Monster/src/List.c -o CMakeFiles/Monster.dir/src/List.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/Monster/src/List.c -o CMakeFiles/Monster.dir/src/List.c.s
 
 CMakeFiles/Monster.dir/src/Monster.c.o: CMakeFiles/Monster.dir/flags.make
 CMakeFiles/Monster.dir/src/Monster.c.o: ../src/Monster.c
 CMakeFiles/Monster.dir/src/Monster.c.o: CMakeFiles/Monster.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Documents/GitHub/Monster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Monster.dir/src/Monster.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Monster.dir/src/Monster.c.o -MF CMakeFiles/Monster.dir/src/Monster.c.o.d -o CMakeFiles/Monster.dir/src/Monster.c.o -c /mnt/d/Documents/GitHub/Monster/src/Monster.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Monster.dir/src/Monster.c.o -MF CMakeFiles/Monster.dir/src/Monster.c.o.d -o CMakeFiles/Monster.dir/src/Monster.c.o -c /mnt/d/Documents/GitHub/Monster/src/Monster.c
 
 CMakeFiles/Monster.dir/src/Monster.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Monster.dir/src/Monster.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/Monster/src/Monster.c > CMakeFiles/Monster.dir/src/Monster.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/Monster/src/Monster.c > CMakeFiles/Monster.dir/src/Monster.c.i
 
 CMakeFiles/Monster.dir/src/Monster.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Monster.dir/src/Monster.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/Monster/src/Monster.c -o CMakeFiles/Monster.dir/src/Monster.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/Monster/src/Monster.c -o CMakeFiles/Monster.dir/src/Monster.c.s
 
 CMakeFiles/Monster.dir/src/main.c.o: CMakeFiles/Monster.dir/flags.make
 CMakeFiles/Monster.dir/src/main.c.o: ../src/main.c
 CMakeFiles/Monster.dir/src/main.c.o: CMakeFiles/Monster.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Documents/GitHub/Monster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Monster.dir/src/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Monster.dir/src/main.c.o -MF CMakeFiles/Monster.dir/src/main.c.o.d -o CMakeFiles/Monster.dir/src/main.c.o -c /mnt/d/Documents/GitHub/Monster/src/main.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Monster.dir/src/main.c.o -MF CMakeFiles/Monster.dir/src/main.c.o.d -o CMakeFiles/Monster.dir/src/main.c.o -c /mnt/d/Documents/GitHub/Monster/src/main.c
 
 CMakeFiles/Monster.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Monster.dir/src/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/Monster/src/main.c > CMakeFiles/Monster.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/Documents/GitHub/Monster/src/main.c > CMakeFiles/Monster.dir/src/main.c.i
 
 CMakeFiles/Monster.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Monster.dir/src/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/Monster/src/main.c -o CMakeFiles/Monster.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/Documents/GitHub/Monster/src/main.c -o CMakeFiles/Monster.dir/src/main.c.s
 
 # Object files for target Monster
 Monster_OBJECTS = \
